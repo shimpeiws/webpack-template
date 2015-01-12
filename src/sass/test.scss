@@ -1,0 +1,27 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 10px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+.center h2 {
+  margin-bottom: 20px;
+}

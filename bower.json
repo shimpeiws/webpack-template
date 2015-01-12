@@ -1,0 +1,21 @@
+{
+  "name": "itemlist-react",
+  "version": "0.0.0",
+  "authors": [
+    "Shimpei Takamatsu <shimpeiws@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "lodash": "~2.4.1",
+    "react": "~0.12.2"
+  }
+}
