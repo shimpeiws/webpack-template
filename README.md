@@ -1,7 +1,7 @@
-rails-gulp
+webpack-template
 ==========
 
-* gulp template for Rails Project
+* webpack template using gulp
 
 # setup
 
