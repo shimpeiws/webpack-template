@@ -12,4 +12,4 @@ gulp.task 'webpack', ->
     .pipe plumber()
     .pipe webpack config.webpack
     .pipe gulpif config.js.uglify, uglify()
-    .pipe gulp.dest config.js.dest
+    .pipe gulp.dest config.dest.jsLib

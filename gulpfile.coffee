@@ -7,7 +7,7 @@ config = require './gulp/config'
 requireDir './gulp/tasks', { recurse: true }
 
 gulp.task 'watch', ->
-  gulp.watch [config.coffee.src, config.sass.src], ['webpack', 'sass']
+  gulp.watch [config.file.appCoffee, config.file.appCoffeeLib, config.file.appSass], ['webpack', 'sass', 'coffee']
 
 gulp.task 'default', ->
-  gulp.run ['webpack', 'sass']
+  gulp.run ['bower', 'webpack', 'sass', 'coffee']
